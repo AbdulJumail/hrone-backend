@@ -16,7 +16,7 @@ MONGODB_URL = os.getenv("MONGODB_URL")
 app = FastAPI(title="E-commerce Products API", version="1.0.0")
 
 # MongoDB connection
-MONGODB_URL = "mongodb://localhost:27017"
+MONGO_DETAILS = os.environ["MONGODB_URL"]
 client = AsyncIOMotorClient(MONGODB_URL)
 db = client.ecommerce_db
 products_collection = db.products
