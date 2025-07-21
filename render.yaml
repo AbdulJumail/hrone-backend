@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: hrone-backend
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "./start.sh"
+    envVars:
+      - key: MONGODB_URL
+        value: mongodb+srv://abduljumail07:Ub2B_9zMekL%21x%21s@cluster0.jcvjsxc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
