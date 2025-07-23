@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # E-commerce Products & Orders API
 
 A FastAPI-based backend application for creating and managing products and orders in an e-commerce platform, similar to Flipkart/Amazon.
@@ -400,10 +400,5 @@ pip install pytest
 pytest tests/
 ```
 
-## License
-
-This project is for educational purposes.
 =======
-# hrone-backend
-HRoneBackend
->>>>>>> b19de708a8958887e23c7823467f2f738f199098
+# backend-project
